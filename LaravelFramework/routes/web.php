@@ -15,21 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+Route::prefix('jogos')->group(function(){
+    Route::get('/', [JogosController::class, 'index'])->name('jogos-index');
+    Route::get('/', [JogosController::class, 'index'])->name('jogos-create');
 
-// Route::view('/jogos','jogos');
-
-
-// Route::view('/jogos', 'jogos', ['name'=>'GTA']);
-
-// Route::get('/jogos/{id?}/{name?}', function($id = null, $name = null){
-//     return view('jogos',['idJogo'=>$id, 'nomeJogo'=>$name]);
-// })->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
-
-Route::get('/jogos', [JogosController::class, 'index']);
-
-Route::get('/home', function () {
-    return view('welcome');
-})->name('home-index');
+});
 
 Route::fallback(function(){
     return "Erro ao localizar a rota!";
