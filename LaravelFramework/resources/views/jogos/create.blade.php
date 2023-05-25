@@ -7,7 +7,7 @@
     <h1> Crie um novo jogo </h1>
     <hr>
     <form action=" {{ route('jogos-store')}}" method="POST">
-    
+        @csrf
         <div class="form-group">
             <div class="form-group">
                 <label for="nome">Nome:</label>
