@@ -9,9 +9,7 @@ class JogosController extends Controller
 {
         public function index ()
         {
-            // dd('Ola mundo');
             $jogos = Jogo::all();
-            // dd($jogos);
             return view('jogos.index', ['jogos'=>$jogos]);
         }
 
