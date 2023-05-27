@@ -1,4 +1,6 @@
 # <h1 align="center"> Lista de Jogos - Laravel </h1>
+# <h1 align="center"> ![image](https://github.com/diegosilvaas/LaravelFramework/assets/122392637/bd2bb073-27c5-4937-b471-bfd10aca6d0b) </h1>
+
 
 ## Descrição do projeto
 Este é um projeto desenvolvido utilizando o framework Laravel, que consiste em uma aplicação para a listagem de jogos. Com esta aplicação, é possível adicionar, alterar e excluir jogos da lista.
