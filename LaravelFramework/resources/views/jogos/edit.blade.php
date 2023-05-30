@@ -24,13 +24,13 @@
             <br>
             <div class="form-group">
                 <label for="ano_criacao">Ano de criação:</label>
-                <input type="number" class="form-control" name="ano_criacao" value=" {{ $jogos->ano_criacao }}" placeholder="Ano de criação...">
+                <input type="text" class="form-control" name="ano_criacao" value=" {{ $jogos->ano_criacao }}" placeholder="Ano de criação...">
 
             </div>
             <br>
             <div class="form-group">
                 <label for="valor">Valor:</label>
-                <input type="number" class="form-control" name="valor" value=" {{ $jogos->valor }}" placeholder="Digite um valor para o jogo...">
+                <input type="text" class="form-control" name="valor" value=" {{ $jogos->valor }}" placeholder="Digite um valor para o jogo...">
 
             </div>
             <br>
