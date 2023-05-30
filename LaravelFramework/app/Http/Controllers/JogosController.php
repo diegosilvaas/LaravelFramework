@@ -41,7 +41,7 @@ class JogosController extends Controller
         $data = [
             'nome' =>$request->nome,
             'categoria' =>$request->categoria,
-            'ano_criacao' =>$request->amo_criacao,
+            'ano_criacao' =>$request->ano_criacao,
             'valor' =>$request->valor,
 
         ];
